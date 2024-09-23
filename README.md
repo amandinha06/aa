@@ -9,4 +9,4 @@ Usei também o Git HUb Pages para hospedagem do site. </p>
 
 <p>- Dificuldade encontradas: Tive um pouco de dificuldade ao posicionar os elementos exatamente onde eu queria, além de ter demorado um bom tempo desenvolvendo o formulário de contato. </p>
 
-<p>---- Link: </p>
+<p>---- Link: https://amandinha06.github.io/tudo-sobre-queimada/</p>
