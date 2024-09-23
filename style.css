@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    background-color: #e7ffe7; 
+    color: #313131;
+    font-size: 20px;
+}
+
+header {
+    background-color: #ffb44a;
+    position: fixed;
+}
+
+.nav_menu .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 90px;
+    padding-bottom: 30px;
+
+}
+
+.nav li a {
+    padding: 5rem 2rem 2rem 1rem ;
+    text-decoration: none;
+    color: #603311;
+    font-size: 25px;
+    transition: text-decoration 0.3s ease;
+    padding-right: 49px;
+}
+
+.nav li a:hover {
+    color: rgb(255, 0, 0);
+}
+
+#topo h1{
+    font-size: 40px;
+    padding-top: 180px;
+    padding-left: 400px;
+    padding-bottom: 30px;
+    color: #8B0000;
+}
+
+#topo img{
+    border-radius: 150px;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: -130px;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+#causas h1{
+    font-size: 35px;
+    margin-left: 590px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-right: 550px;
+    color: #f09d5d;
+    background-color: #8B0000;
+    width: 360px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+}
+
+#causas h2{
+    font-size: 25px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    color: #bd621d;
+}
+
+#causas h5{
+    font-size: 25px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    color: #bd621d;
+}
+
+#causas h3{
+    font-size: 30px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    color: #863b01 ;
+}
+
+#causas h4{
+    font-size:20px;
+    margin-left: 15px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    color: #8B0000;
+}
+
+#causas ul{
+    margin-left: 60px;
+    margin-bottom: 50px;
+}
+
+
+#consequecias h1{
+    font-size: 35px;
+    margin-left: 550px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #f09d5d;
+    background-color: #8B0000;
+    width: 500px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+}
+
+#consequecias h2{
+    font-size: 30px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    color: #863b01 ;
+}
+
+#consequecias ul{
+    margin-left: 60px;
+    margin-bottom: 50px;
+}
+
+#consequecias h4{
+    font-size:20px;
+    margin-left: 15px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    color: #8B0000;
+}
+
+#consequecias img{
+    width: 600px;
+    height: 580px;
+    margin-left:  450px;
+    margin-bottom: 20px;
+}
+
+#consequecias p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#prevencao h1{
+    font-size: 35px;
+    margin-left: 550px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #f09d5d;
+    background-color: #8B0000;
+    width: 340px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+}
+
+#prevencao h2{
+    font-size: 30px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    color: #863b01 ;
+}
+
+#prevencao ul{
+    margin-left: 60px;
+    margin-bottom: 50px;
+}
+
+#prevencao h4{
+    font-size:20px;
+    margin-left: 15px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    color: #8B0000;
+}
+
+#prevencao h3{
+    font-size: 25px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    color: #bd621d;
+}
+
+#prevencao a img{
+    margin: 30px;
+    font-size: 30px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    width: 100px;
+    height: 100px;
+}
+
+#fotos h1{
+    font-size: 35px;
+    margin-left: 550px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #f09d5d;
+    background-color: #8B0000;
+    width: 250px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+}
+
+.foto1{
+    width: relative;
+    height: relative;
+    margin-left: 60px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+.foto2{
+    width: 300px;
+    height: 200px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+.foto3{
+    width: 250px;
+    height: 300px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+.foto4{
+    width: 300px;
+    height: 200px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+.foto5{
+    width: 350px;
+    height: 200px;
+    margin-left: 130px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+.foto6{
+    width: 350px;
+    height: 200px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+.foto7{
+    width: relative;
+    height: relative;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+.foto8{
+    width: relative;
+    height: relative;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+.foto9{
+    width: 350px;
+    height: 200px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+.foto10{
+    width: 350px;
+    height: 200px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+#fotos{
+    background-color: #ffe2cb;
+    height: 1300px;
+    padding-top: 30px;
+}
+
+#contato {
+    text-align: center;
+    background-color: #f2f2f2; 
+    padding: 50px;
+  }
+  
+  .mensage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .campo {
+    width: 80%;
+    margin: 20px 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  .form {
+    width: 100%;
+    position: relative;
+  }
+  
+  .form input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  .form input[type="text"]:focus {
+    outline: none;
+    border-color: #8B0000; 
+  }
+  
+  button {
+    background-color: #8B0000; 
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: 1  #8B0000;
+  }
+
+footer {
+    background-color: #ffb44a;
+    display: flex;
+    align-items: center;
+}
+
+footer img{
+    width: 60px;
+    height: 60px;
+    margin-left: 160px;
+    margin-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
